@@ -4,7 +4,7 @@ config:
   framework: "Jekyll"
   buildCommand: "jekyll build"
   buildDir: "_site"
-  runCommand: "jekyll serve --host 0.0.0.0"
+  runCommand: "jekyll serve"
   installCommand: "bundle install"
 ports:
   - protocol: "HTTPS"
